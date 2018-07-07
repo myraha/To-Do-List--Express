@@ -1,0 +1,149 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+  font-family: 'Roboto Mono', monospace;
+  margin: 0 auto;
+}
+
+header{
+  border-bottom: .1px solid #000;
+  height: 60px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 12px;
+}
+
+
+li{
+  font-size: 16px;
+}
+
+
+
+/* Clear fix hack */
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+.complete {
+  text-decoration: line-through;
+}
+
+#edit{
+  display: none;
+}
+
+#main{
+  background-color: #eee;
+  padding: 20px;
+}
+
+.mainHead{
+  margin-bottom: 20px;
+  background: #6ffdac;
+}
+
+.mainHead h1{
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+}
+
+h3, ul{
+  margin-bottom: 10px;
+}
+
+
+#box{
+  width: 50%;
+  float: left;
+  height: auto;
+}
+
+#title{
+  font-size: 20px;
+}
+
+#instruct{
+  font-size: 20px;
+}
+
+#clearing{
+  font-size: 20px;
+}
+
+form{
+  background: #fff;
+  padding: 8px;
+}
+
+
+#box button{
+  font-size: 24px;
+}
+
+#add input, #add button{
+  width: 50%;
+  float: left;
+  font-size: 24px;
+}
+
+
+/******************************************
+/* MOBILE
+/*******************************************/
+@media only screen and (max-width:627px){
+#main{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width:395px){
+  #add input, #add button{
+
+    font-size: 15px;
+  }
+
+  #box button{
+    font-size: 15px;
+  }
+
+  #title{
+    font-size: 15px;
+  }
+
+  #instruct{
+    font-size: 15px;
+  }
+
+  #clearing{
+  font-size: 15px;
+  }
+
+  li{
+    font-size: 13px;
+  }
+}
