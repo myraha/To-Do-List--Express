@@ -1,11 +1,17 @@
-![21 Savage](public/21savage.jpg)
+This is a simple todo list with an express server backend.
 
-## Installation
+## How It's Made:
 
-1. Clone repo
-2. run `npm install`
+**Tech used:** HTML, CSS, JavaScript, Node.js Express, MongoDB
 
-## Usage
 
-1. run `npm run savage`
-2. Navigate to `localhost:3000`
+The users can add tasks, delete tasks, and update tasks that have been already added.
+
+##Installation
+
+Clone repo
+run npm install
+
+##Usage
+run npm run todolist
+Navigate to localhost:3000
